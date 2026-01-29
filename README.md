@@ -1,4 +1,4 @@
-# QA Automation Automatizacion E2E|API – Cypress
+# QA Automation Automatizacion E2E | API – Cypress
 
 Este repositorio contiene la solución a una prueba técnica para QA Automation, implementada con Cypress, siguiendo el patrón POM (Page Object Model), en el cual se ha integrado lo siguiente:
 
@@ -17,24 +17,24 @@ Este repositorio contiene la solución a una prueba técnica para QA Automation,
 ## Estructura del proyecto
 
 cypress/
- ├── e2e/
- │    ├── api/
- │    │    └── authApi.cy.js
- │    └── ui/
- │         └── shopping_flow.cy.js
- ├── fixtures/
- │    └── data.json
- ├── pages/
- │    ├── CartViewPage.js
- │    ├── CheckoutPage.js
- │    ├── ConfirmationPage.js
- │    ├── LoginPage.js
- │    └── ProductsPage.js
- ├── services/
- │    └── AuthService.js
- ├── support/
- │    ├── commands.js
- │    └── e2e.js
+- e2e/
+    - api/
+        - authApi.cy.js
+    - ui/
+        - shopping_flow.cy.js
+- fixtures/
+    - data.json
+- pages/
+    - CartViewPage.js
+    - CheckoutPage.js
+    - ConfirmationPage.js
+    - LoginPage.js
+    - ProductsPage.js
+- services/
+    - AuthService.js
+- support/
+    - commands.js
+    - e2e.js
 cypress.config.js
 
 ## Explicación arquitectura
@@ -100,6 +100,10 @@ Los datos utilizados para las pruebas se encuentran centralizados en **cypress/f
 
 **Ejecutar solo pruebas API**
 - npx cypress run --spec cypress/e2e/api/authApi.cy.js
+
+## Conclusión
+
+Con esta prueba para QA Automation se demuestra un enfoque en la calidad, mantenibilidad y escalabilidad, así también como el uso de buenas prácticas de automatiación y la facilidad de poder integrar lo que es pruebas de testing UI y API en un mismo repositorio.
 
 
 
