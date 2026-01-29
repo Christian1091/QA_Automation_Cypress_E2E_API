@@ -1,0 +1,17 @@
+{
+    "dataPerson": {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "firstName": "Pepito",
+        "lastName": "Espinoza",
+        "postalCode": "0101"
+    },
+    "dataProducts": {
+        "oneProduct": "Bike Light",
+        "twoProduct": "Fleece Jacket"
+    },
+
+    "user": {
+        "password": "Test123"
+    }
+}
